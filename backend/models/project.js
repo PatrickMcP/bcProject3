@@ -12,8 +12,7 @@ const ProjectSchema = new Schema(
       type: Schema.Types.ObjectId,
       ref: "Boards"
     }]
-  },
-  { timestamps: true }
+  }
 );
 
 // export the new Schema so we could modify it using Node.js

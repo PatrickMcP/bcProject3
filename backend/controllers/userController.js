@@ -20,8 +20,8 @@ router.get("/api/users", (req, res) =>{
 });
 
 // Route to get one user
-router.get("/api/users/:id", (req, res) => {
-  db.User.findOne( { _id: req.params.id } )
+router.get("/api/users/:userID", (req, res) => {
+  db.User.findOne( { _id: req.params.userID } )
     .then( (dbUser) => {
       res.json(dbUser);
     })

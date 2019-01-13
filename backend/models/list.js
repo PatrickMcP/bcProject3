@@ -12,8 +12,7 @@ const ListSchema = new Schema(
       type: Schema.Types.ObjectId,
       ref: "Card"
     }]
-  },
-  { timestamps: true }
+  }
 );
 
 // export the new Schema so we could modify it using Node.js
