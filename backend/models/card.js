@@ -8,8 +8,7 @@ const CardSchema = new Schema(
       type: String,
       required: true
     }
-  },
-  { timestamps: true }
+  }
 );
 
 // export the new Schema so we could modify it using Node.js

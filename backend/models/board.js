@@ -12,8 +12,7 @@ const BoardSchema = new Schema(
       type: Schema.Types.ObjectId,
       ref: "List"
     }]
-  },
-  { timestamps: true }
+  }
 );
 
 // export the new Schema so we could modify it using Node.js
